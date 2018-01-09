@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YYApplicationModule_Example' do
+  pod 'YYApplicationModule', :path => '../'
+
+  target 'YYApplicationModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
