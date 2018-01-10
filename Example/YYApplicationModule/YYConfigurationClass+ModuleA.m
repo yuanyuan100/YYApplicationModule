@@ -10,6 +10,7 @@
 
 @implementation YYConfigurationClass (ModuleA)
 + (NSArray<NSString *> *)nameOfModuleNeedsToStarted {
+    // App启动时，询问需要加载的组件
     return @[@"LGApplication", @"WDApplicatiion", @"HMApplication"];
 }
 @end

@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <YYApplicationModule/YYApplicationModule.h>
 
+// 组件WD （普通组件）
 @interface WDApplicatiion : NSObject <YYApplicationModuleDelegate>
 
 @end

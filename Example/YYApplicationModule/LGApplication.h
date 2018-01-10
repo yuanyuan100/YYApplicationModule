@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <YYApplicationModule/YYApplicationModule.h>
 
+// 组件 LG (集成后App启动首先展示的模块)
 @interface LGApplication : NSObject <YYApplicationModuleDelegate>
 
 @end

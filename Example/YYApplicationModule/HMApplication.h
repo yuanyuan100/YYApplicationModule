@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <YYApplicationModule/YYApplicationModule.h>
 
+
+// 组件HM (公共环境模块)
 @interface HMApplication : NSObject <YYApplicationModuleDelegate>
 
 @end

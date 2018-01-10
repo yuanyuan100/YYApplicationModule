@@ -13,6 +13,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"2");
+    
+    // 组件单独运行时设置window
     [UIApplication sharedApplication].delegate.window.rootViewController = [WDViewController new];
     return YES;
 }

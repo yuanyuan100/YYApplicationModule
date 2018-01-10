@@ -20,7 +20,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* YYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YYAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YYViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -67,8 +66,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* YYApplicationModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYApplicationModule-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* YYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* YYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* YYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* YYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,6 +113,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C2154ED2005F0770029952B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3C2154CE2005AF9C0029952B /* YYConfigurationClass+ModuleA.h */,
+				3C2154CF2005AF9C0029952B /* YYConfigurationClass+ModuleA.m */,
+				3C2154D12005B1440029952B /* LGApplication.h */,
+				3C2154D22005B1440029952B /* LGApplication.m */,
+				3C2154D72005B27E0029952B /* WDApplicatiion.h */,
+				3C2154D82005B27E0029952B /* WDApplicatiion.m */,
+				3C2154E32005BB3C0029952B /* HMApplication.h */,
+				3C2154E42005BB3C0029952B /* HMApplication.m */,
+				3C2154DD2005B5200029952B /* LGViewController.h */,
+				3C2154DE2005B5200029952B /* LGViewController.m */,
+				3C2154E02005B52E0029952B /* WDViewController.h */,
+				3C2154E12005B52E0029952B /* WDViewController.m */,
+				3C2154E92005BBFD0029952B /* HMViewController.h */,
+				3C2154EA2005BBFD0029952B /* HMViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -153,28 +171,13 @@
 		6003F593195388D20070C39A /* Example for YYApplicationModule */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* YYAppDelegate.h */,
-				6003F59D195388D20070C39A /* YYAppDelegate.m */,
+				3C2154ED2005F0770029952B /* Demo */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YYViewController.h */,
 				6003F5A6195388D20070C39A /* YYViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				3C2154CE2005AF9C0029952B /* YYConfigurationClass+ModuleA.h */,
-				3C2154CF2005AF9C0029952B /* YYConfigurationClass+ModuleA.m */,
-				3C2154D12005B1440029952B /* LGApplication.h */,
-				3C2154D22005B1440029952B /* LGApplication.m */,
-				3C2154D72005B27E0029952B /* WDApplicatiion.h */,
-				3C2154D82005B27E0029952B /* WDApplicatiion.m */,
-				3C2154E32005BB3C0029952B /* HMApplication.h */,
-				3C2154E42005BB3C0029952B /* HMApplication.m */,
-				3C2154DD2005B5200029952B /* LGViewController.h */,
-				3C2154DE2005B5200029952B /* LGViewController.m */,
-				3C2154E02005B52E0029952B /* WDViewController.h */,
-				3C2154E12005B52E0029952B /* WDViewController.m */,
-				3C2154E92005BBFD0029952B /* HMViewController.h */,
-				3C2154EA2005BBFD0029952B /* HMViewController.m */,
 			);
 			name = "Example for YYApplicationModule";
 			path = YYApplicationModule;
@@ -441,7 +444,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* YYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				3C2154D32005B1440029952B /* LGApplication.m in Sources */,
