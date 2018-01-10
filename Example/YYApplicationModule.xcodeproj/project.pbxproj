@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		29451CF233A0338D709F9600 /* Pods_YYApplicationModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0F9AFF2921286A74842D84 /* Pods_YYApplicationModule_Example.framework */; };
+		3C2154D02005AF9C0029952B /* YYConfigurationClass+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154CF2005AF9C0029952B /* YYConfigurationClass+ModuleA.m */; };
+		3C2154D32005B1440029952B /* LGApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154D22005B1440029952B /* LGApplication.m */; };
+		3C2154D92005B27E0029952B /* WDApplicatiion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154D82005B27E0029952B /* WDApplicatiion.m */; };
+		3C2154DF2005B5200029952B /* LGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154DE2005B5200029952B /* LGViewController.m */; };
+		3C2154E22005B52E0029952B /* WDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154E12005B52E0029952B /* WDViewController.m */; };
+		3C2154E52005BB3C0029952B /* HMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154E42005BB3C0029952B /* HMApplication.m */; };
+		3C2154EB2005BBFD0029952B /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2154EA2005BBFD0029952B /* HMViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2154CE2005AF9C0029952B /* YYConfigurationClass+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYConfigurationClass+ModuleA.h"; sourceTree = "<group>"; };
+		3C2154CF2005AF9C0029952B /* YYConfigurationClass+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYConfigurationClass+ModuleA.m"; sourceTree = "<group>"; };
+		3C2154D12005B1440029952B /* LGApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGApplication.h; sourceTree = "<group>"; };
+		3C2154D22005B1440029952B /* LGApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGApplication.m; sourceTree = "<group>"; };
+		3C2154D72005B27E0029952B /* WDApplicatiion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDApplicatiion.h; sourceTree = "<group>"; };
+		3C2154D82005B27E0029952B /* WDApplicatiion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDApplicatiion.m; sourceTree = "<group>"; };
+		3C2154DD2005B5200029952B /* LGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGViewController.h; sourceTree = "<group>"; };
+		3C2154DE2005B5200029952B /* LGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGViewController.m; sourceTree = "<group>"; };
+		3C2154E02005B52E0029952B /* WDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewController.h; sourceTree = "<group>"; };
+		3C2154E12005B52E0029952B /* WDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDViewController.m; sourceTree = "<group>"; };
+		3C2154E32005BB3C0029952B /* HMApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMApplication.h; sourceTree = "<group>"; };
+		3C2154E42005BB3C0029952B /* HMApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMApplication.m; sourceTree = "<group>"; };
+		3C2154E92005BBFD0029952B /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		3C2154EA2005BBFD0029952B /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
 		408802A7728006C8B875AD4F /* Pods-YYApplicationModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYApplicationModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYApplicationModule_Tests/Pods-YYApplicationModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YYApplicationModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYApplicationModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,14 +79,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		768A3EFB0D9DE737B986DEBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		768A3EFB0D9DE737B986DEBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7ED5D11A28E7B0BFE4BE5EE0 /* Pods_YYApplicationModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYApplicationModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EBEC2970135B0B28ECE8A99 /* Pods-YYApplicationModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYApplicationModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYApplicationModule_Example/Pods-YYApplicationModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BF0F9AFF2921286A74842D84 /* Pods_YYApplicationModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYApplicationModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B095906F738770AC0CA083 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D5B095906F738770AC0CA083 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E36DAA23E4B32CBE60473BE7 /* Pods-YYApplicationModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYApplicationModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYApplicationModule_Example/Pods-YYApplicationModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E43055F9AD1E8731975B7A35 /* YYApplicationModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYApplicationModule.podspec; path = ../YYApplicationModule.podspec; sourceTree = "<group>"; };
+		E43055F9AD1E8731975B7A35 /* YYApplicationModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYApplicationModule.podspec; path = ../YYApplicationModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA80524EFDF4CBC25F22FBAA /* Pods-YYApplicationModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYApplicationModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYApplicationModule_Tests/Pods-YYApplicationModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +161,20 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				3C2154CE2005AF9C0029952B /* YYConfigurationClass+ModuleA.h */,
+				3C2154CF2005AF9C0029952B /* YYConfigurationClass+ModuleA.m */,
+				3C2154D12005B1440029952B /* LGApplication.h */,
+				3C2154D22005B1440029952B /* LGApplication.m */,
+				3C2154D72005B27E0029952B /* WDApplicatiion.h */,
+				3C2154D82005B27E0029952B /* WDApplicatiion.m */,
+				3C2154E32005BB3C0029952B /* HMApplication.h */,
+				3C2154E42005BB3C0029952B /* HMApplication.m */,
+				3C2154DD2005B5200029952B /* LGViewController.h */,
+				3C2154DE2005B5200029952B /* LGViewController.m */,
+				3C2154E02005B52E0029952B /* WDViewController.h */,
+				3C2154E12005B52E0029952B /* WDViewController.m */,
+				3C2154E92005BBFD0029952B /* HMViewController.h */,
+				3C2154EA2005BBFD0029952B /* HMViewController.m */,
 			);
 			name = "Example for YYApplicationModule";
 			path = YYApplicationModule;
@@ -409,6 +444,13 @@
 				6003F59E195388D20070C39A /* YYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3C2154D32005B1440029952B /* LGApplication.m in Sources */,
+				3C2154DF2005B5200029952B /* LGViewController.m in Sources */,
+				3C2154EB2005BBFD0029952B /* HMViewController.m in Sources */,
+				3C2154D02005AF9C0029952B /* YYConfigurationClass+ModuleA.m in Sources */,
+				3C2154D92005B27E0029952B /* WDApplicatiion.m in Sources */,
+				3C2154E52005BB3C0029952B /* HMApplication.m in Sources */,
+				3C2154E22005B52E0029952B /* WDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -538,6 +580,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YYApplicationModule/YYApplicationModule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"__CLASSNAME_APPLICATION_MODULE=YYAppDelegate",
+				);
 				INFOPLIST_FILE = "YYApplicationModule/YYApplicationModule-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -553,6 +600,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YYApplicationModule/YYApplicationModule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"__CLASSNAME_APPLICATION_MODULE=YYAppDelegate",
+				);
 				INFOPLIST_FILE = "YYApplicationModule/YYApplicationModule-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
