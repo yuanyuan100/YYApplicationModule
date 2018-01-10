@@ -55,25 +55,37 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     for (NSInteger i = 0; i < self.moduleObjects.count; i++) {
-        
+        id<YYApplicationModuleDelegate> obj = self.moduleObjects[i];
+        if ([obj respondsToSelector:@selector(applicationDidEnterBackground:)]) {
+            [obj applicationDidEnterBackground:application];
+        }
     }
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     for (NSInteger i = 0; i < self.moduleObjects.count; i++) {
-        
+        id<YYApplicationModuleDelegate> obj = self.moduleObjects[i];
+        if ([obj respondsToSelector:@selector(applicationWillEnterForeground:)]) {
+            [obj applicationWillEnterForeground:application];
+        }
     }
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     for (NSInteger i = 0; i < self.moduleObjects.count; i++) {
-        
+        id<YYApplicationModuleDelegate> obj = self.moduleObjects[i];
+        if ([obj respondsToSelector:@selector(applicationDidBecomeActive:)]) {
+            [obj applicationDidBecomeActive:application];
+        }
     }
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     for (NSInteger i = 0; i < self.moduleObjects.count; i++) {
-        
+        id<YYApplicationModuleDelegate> obj = self.moduleObjects[i];
+        if ([obj respondsToSelector:@selector(applicationWillTerminate:)]) {
+            [obj applicationWillTerminate:application];
+        }
     }
 }
 
