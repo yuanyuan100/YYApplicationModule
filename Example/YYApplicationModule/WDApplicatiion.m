@@ -15,6 +15,7 @@
     NSLog(@"2");
     
     // 组件单独运行时设置window
+    // 此处初始化组件WD,通知组件WD允许被加载
     [UIApplication sharedApplication].delegate.window.rootViewController = [WDViewController new];
     return YES;
 }
